@@ -1,0 +1,20 @@
+{
+  "name": "justify/container",
+  "description": "Dependency injection container, implementation of PSR-11",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Justify",
+      "email": "justifydev@gmail.com"
+    }
+  ],
+  "require": {
+    "psr/container": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Justify\\Container\\": "src"
+    }
+  }
+}
