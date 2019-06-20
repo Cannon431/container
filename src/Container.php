@@ -30,7 +30,6 @@ class Container implements ContainerInterface
      */
     public function __construct(array $services = [])
     {
-        assert(4 > 0);
         $this->services = $services;
     }
 
@@ -123,6 +122,3 @@ class Container implements ContainerInterface
         return $newService;
     }
 }
-
-?>
-
